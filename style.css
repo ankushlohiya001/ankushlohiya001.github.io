@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: linear-gradient(to top, #000f, #0002);
+	min-height: 100vh;
+}
+
+header{
+	height: 300px;
+}
+
+.hero{
+	height: 100%;
+	background-image: url("/res/back.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+h1{
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-size: 1.4em;
+	background: #fff4;
+	padding: 2px;
+	cursor: pointer;
+	transition: background 250ms, box-shadow 250ms;
+}
+
+h1:hover{
+	background: #222;
+	box-shadow: 0 4px 4px #bbbf;
+}
